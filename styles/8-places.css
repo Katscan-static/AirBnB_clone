@@ -1,0 +1,120 @@
+.places {
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: center;
+
+}
+
+.places h1 {
+	font-size: 30px;
+	display: block;
+	width: 100%;
+}
+
+}
+
+.places h2 {
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.places article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px #FF5A5F solid;
+	position: relative;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.places .price_by_night {
+	color: #FF5A5F;
+	border: #FF5A5F 4px solid;
+	display: flex;
+	left: 25%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	border-radius: 50%;
+	min-width: 60px;
+	height: 60px;
+	font-size: 30px;
+}
+
+.information {
+	height: 80px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	display: flex;
+	top: 100px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.information .max_guest {
+	background-image: url("https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 14px;
+	margin-left: 40px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100px;
+}
+
+.information .max_guest p {
+	margin-top: 75px;
+	font-size: 12px;
+	margin-right: 40px;
+	font-weight: 600;
+}
+
+.information .number_rooms {
+	background-image: url("https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 14px 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100px;
+}
+
+.information .number_rooms p {
+	margin-top: 75px;
+	font-size: 12px;
+	margin-right: 40px;
+	font-weight: 600;
+}
+
+.information .number_bathrooms {
+	background-image: url("https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 14px 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100px;
+}
+
+.information .number_bathrooms p {
+	margin-top: 75px;
+	font-size: 12px;
+	margin-right: 20px;
+	font-weight: 600;
+}
